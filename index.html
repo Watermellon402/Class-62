@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Photo Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<h3>
+    <div style="position:sticky;top:0;z-index:99999; background-color:black;">
+
+
+        <div class="menu1" id="myNavbar1">
+            <span><a href="#home">Home</a></span>&nbsp;
+            <span><a href="#Grids">Grid view</a></span>&nbsp;
+            <span><a href="#slides">Slide view</a></span>&nbsp;
+            <span><a href="#contact">Contact</a></span>
+
+        </div>
+
+    </div>
+</h3>
+
+<body>
+
+    <div class="container">
+        <section id="home">
+            <div class="page-header">
+                <h2 class="text-capitalize"></h2>
+                <img id="img1" src="https://i.pinimg.com/originals/84/15/56/841556cbcbe36961fddec58ed635fec2.gif" class="img-responsive">
+            </div>
+        </section>
+        <!>
+            <hr style="width: 100%;">
+            <section id="Grids">
+                <h2> Grid gallery</h2>
+                <br>
+                <script src=""></script>
+                <div class="row">
+                    <img class="img2" src="https://i.pinimg.com/736x/7f/68/f0/7f68f000943ec8c518ce44e125c36776.jpg">
+                    <img class="img2" src="https://th.bing.com/th/id/OIP.f8THgGyOQZb2-QW-a_xxqwHaNK?pid=ImgDet&rs=1">
+                    <img class="img2" src="https://th.bing.com/th/id/R212bae15a2cd3d64d97f97c85580719a?rik=58u3mOBUT47Bqw&riu=http%3a%2f%2fcdn.collider.com%2fwp-content%2fuploads%2f2018%2f06%2ftitans-robin-image.jpg&ehk=e2OHH0z1dIopfshvuLF5jCya1wfD9dqC6xNLam%2f5Bug%3d&risl=&pid=ImgRaw">
+                    <img class="img2" src="https://vignette.wikia.nocookie.net/comic-vs-anime-vs-cartoon/images/0/07/Action-Comics-976.jpg/revision/latest?cb=20180421103415">
+                    <br><br>
+                </div>
+                <div class="row">
+                    <img class="img2" src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2018/05/The-Flash-feature.jpg">
+                    <img class="img2" src="https://th.bing.com/th/id/R2bf326a40c1a3ef2d8571c099a7b0a0a?rik=qxHrdhxCKI%2fBEw&riu=http%3a%2f%2fscreenrant.com%2fwp-content%2fuploads%2f2017%2f01%2fsavitar-the-flash-season-3.jpg&ehk=6y7tUG59dEtRWmsh8lElzw9xkZfiglOKdPmqaFQpv1A%3d&risl=&pid=ImgRaw">
+                    <img class="img2" src="https://static2.cbrimages.com/wordpress/wp-content/uploads/2020/01/Stephen-Amell-as-the-Green-Arrow-in-Arrow.jpg">
+                    <img class="img2" src="https://th.bing.com/th/id/R7e0cce0166008f2a13262ba4fdae5dcd?rik=Fb6KlxoUdoe%2bYw&riu=http%3a%2f%2fvignette4.wikia.nocookie.net%2fmkwikia%2fimages%2f9%2f9b%2fLex_Luthor_Render.jpg%2frevision%2flatest%3fcb%3d20090209031429&ehk=vwJL2%2f4KZ2gdeO1cxMO58z%2fv48kjagM%2fxmwBYZoKVbg%3d&risl=&pid=ImgRaw">
+                </div>
+
+            </section>
+
+            <br>
+            <br>
+            <hr style="width: 100%;">
+
+
+            <!-- Left and right controls -->
+            <section id="slides">
+                <h2>Sliding gallary</h2>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                        <li data-target="#myCarousel" data-slide-to="4"></li>
+                        <li data-target="#myCarousel" data-slide-to="5"></li>
+                        <li data-target="#myCarousel" data-slide-to="6"></li>
+                        <li data-target="#myCarousel" data-slide-to="7"></li>
+
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+
+                        <div class="item active">
+                            <img class="img-responsive" src="https://i.pinimg.com/736x/7f/68/f0/7f68f000943ec8c518ce44e125c36776.jpg" alt="Batman" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h3>Batman</h3>
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img class="img-responsive" src="https://th.bing.com/th/id/OIP.f8THgGyOQZb2-QW-a_xxqwHaNK?pid=ImgDet&rs=1" alt="Harley Quinn" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h3>Harley Quinn</h3>
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img class="img-responsive" src="https://th.bing.com/th/id/R212bae15a2cd3d64d97f97c85580719a?rik=58u3mOBUT47Bqw&riu=http%3a%2f%2fcdn.collider.com%2fwp-content%2fuploads%2f2018%2f06%2ftitans-robin-image.jpg&ehk=e2OHH0z1dIopfshvuLF5jCya1wfD9dqC6xNLam%2f5Bug%3d&risl=&pid=ImgRaw" alt="Robin" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h3>Robin</h3>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="https://vignette.wikia.nocookie.net/comic-vs-anime-vs-cartoon/images/0/07/Action-Comics-976.jpg/revision/latest?cb=20180421103415" alt="Superman" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h3>Superman</h3>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2018/05/The-Flash-feature.jpg" alt="The Flash" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h3>The Flash</h3>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="https://th.bing.com/th/id/R2bf326a40c1a3ef2d8571c099a7b0a0a?rik=qxHrdhxCKI%2fBEw&riu=http%3a%2f%2fscreenrant.com%2fwp-content%2fuploads%2f2017%2f01%2fsavitar-the-flash-season-3.jpg&ehk=6y7tUG59dEtRWmsh8lElzw9xkZfiglOKdPmqaFQpv1A%3d&risl=&pid=ImgRaw" alt="savitar" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h3>Savitar</h3>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="https://static2.cbrimages.com/wordpress/wp-content/uploads/2020/01/Stephen-Amell-as-the-Green-Arrow-in-Arrow.jpg" alt="The Arrow" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h3>The Arrow</h3>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="https://th.bing.com/th/id/R7e0cce0166008f2a13262ba4fdae5dcd?rik=Fb6KlxoUdoe%2bYw&riu=http%3a%2f%2fvignette4.wikia.nocookie.net%2fmkwikia%2fimages%2f9%2f9b%2fLex_Luthor_Render.jpg%2frevision%2flatest%3fcb%3d20090209031429&ehk=vwJL2%2f4KZ2gdeO1cxMO58z%2fv48kjagM%2fxmwBYZoKVbg%3d&risl=&pid=ImgRaw" alt="Lex Luthor" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h3> General Lex Luthor</h3>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </section>
+            <hr style="width: 100%;">
+            <section id="contact">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5145.229509679864!2d78.36671560895545!3d17.464776945357933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93ccf9668c77%3A0xba02fbd45b2a9c01!2sAparna%20Towers!5e0!3m2!1sen!2sin!4v1615739893974!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                <hr style="width: 100%;">
+                <div class="contact_1">
+
+                    <a href="mailto:aryanmorzaria@gmail.com?Subject=Hello!">
+                        <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;aryanmorzaria@gmail.com</h5>
+                    </a>
+                </div>
+
+            </section>
+
+
+    </div>
+
+</body></html>
